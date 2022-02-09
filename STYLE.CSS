@@ -1,0 +1,20 @@
+html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    
+}
+
+header{
+    background-color: blue;
+    color:rgb(255, 255, 255);
+    margin-bottom: 20px;
+    height: 62px;
+}
+
+header p{
+    margin-left: 314px;
+    padding-top: 20px
+}
