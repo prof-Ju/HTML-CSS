@@ -18,3 +18,13 @@ header p{
     margin-left: 314px;
     padding-top: 20px
 }
+
+.student{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
