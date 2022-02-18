@@ -2,22 +2,30 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     list-style: none;
     
 }
 
 header{
-    background-color: blue;
-    color:rgb(255, 255, 255);
+    background-color: #020F59;
+    color:#A4E6F6;
     margin-bottom: 20px;
     height: 62px;
 }
 
 header p{
-    margin-left: 314px;
-    padding-top: 20px
+    font-family: 'Times New Roman', Times, serif;
+    text-size-adjust: 10px;
+    padding-top: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+    align-content: center;
 }
+
 
 .student{
     display: flex;
@@ -27,4 +35,48 @@ header p{
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+footer{
+    background-color: #64bdd6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+footer p{
+    margin: 20px;
+    margin-right: 50px;
+}
+
+.redeSocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.redeSocial img{
+   margin: 15px;
+   border-radius: 100%;
+}
+
+.jogos{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin-left: 345px;
+    margin-bottom: 54px;
+}
+.jogos img{
+width: 200px;
+height: 200px
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+    align-content: center;
+}
 }
